@@ -1,0 +1,641 @@
+[   0.004][v][cplayer] mpv 0.29.1 Copyright © 2000-2018 mpv/MPlayer/mplayer2 projects
+[   0.005][v][cplayer]  built on UNKNOWN
+[   0.005][v][cplayer] ffmpeg library versions:
+[   0.005][v][cplayer]    libavutil       56.19.101
+[   0.005][v][cplayer]    libavcodec      58.30.100
+[   0.005][v][cplayer]    libavformat     58.18.100
+[   0.005][v][cplayer]    libswscale      5.2.100
+[   0.005][v][cplayer]    libavfilter     7.31.100
+[   0.005][v][cplayer]    libswresample   3.2.100
+[   0.005][v][cplayer] ffmpeg version: 4.1+1209.ge320f9576a
+[   0.005][v][cplayer] 
+[   0.005][v][cplayer] Configuration: ./waf configure --prefix=/usr/x86_64-w64-mingw32/sysroot/mingw --enable-static-build --enable-html-build --disable-manpage-build --enable-libmpv-shared --enable-lua --enable-javascript --enable-libarchive --enable-libass --enable-libbluray --enable-dvdread --enable-dvdnav --enable-uchardet --enable-vulkan --enable-shaderc --enable-rubberband --enable-lcms2 --disable-build-date
+[   0.006][v][cplayer] List of enabled features: asm atomics cplayer crossc d3d-hwaccel d3d11 d3d9-hwaccel debug-build direct3d dos-paths drmprime dvdnav dvdread dvdread-common ffmpeg gl gl-dxinterop gl-dxinterop-d3d9 gl-win32 glob glob-win32 gnuc gpl iconv javascript jpeg lcms2 libaf libarchive libass libass-osd libav-any libavcodec libavdevice libbluray libm libmpv-shared lua luajit mingw noexecstack optimize plain-gl posix-or-mingw rubberband shaderc shaderc-static static-build stdatomic uchardet vulkan wasapi win32-desktop win32-internal-pthreads win32-pipes zlib
+[   0.006][v][cplayer] Command line options: '--player-operation-mode=pseudo-gui' '--log-file=output.txt'
+[   0.006][v][cplayer] mpv 0.29.1 Copyright © 2000-2018 mpv/MPlayer/mplayer2 projects
+[   0.006][v][cplayer]  built on UNKNOWN
+[   0.006][v][cplayer] ffmpeg library versions:
+[   0.006][v][cplayer]    libavutil       56.19.101
+[   0.006][v][cplayer]    libavcodec      58.30.100
+[   0.006][v][cplayer]    libavformat     58.18.100
+[   0.006][v][cplayer]    libswscale      5.2.100
+[   0.006][v][cplayer]    libavfilter     7.31.100
+[   0.006][v][cplayer]    libswresample   3.2.100
+[   0.006][v][cplayer] ffmpeg version: 4.1+1209.ge320f9576a
+[   0.006][v][cplayer] 
+[   0.006][v][cplayer] Configuration: ./waf configure --prefix=/usr/x86_64-w64-mingw32/sysroot/mingw --enable-static-build --enable-html-build --disable-manpage-build --enable-libmpv-shared --enable-lua --enable-javascript --enable-libarchive --enable-libass --enable-libbluray --enable-dvdread --enable-dvdnav --enable-uchardet --enable-vulkan --enable-shaderc --enable-rubberband --enable-lcms2 --disable-build-date
+[   0.006][v][cplayer] List of enabled features: asm atomics cplayer crossc d3d-hwaccel d3d11 d3d9-hwaccel debug-build direct3d dos-paths drmprime dvdnav dvdread dvdread-common ffmpeg gl gl-dxinterop gl-dxinterop-d3d9 gl-win32 glob glob-win32 gnuc gpl iconv javascript jpeg lcms2 libaf libarchive libass libass-osd libav-any libavcodec libavdevice libbluray libm libmpv-shared lua luajit mingw noexecstack optimize plain-gl posix-or-mingw rubberband shaderc shaderc-static static-build stdatomic uchardet vulkan wasapi win32-desktop win32-internal-pthreads win32-pipes zlib
+[   0.009][d][cplayer] Setting option 'player-operation-mode' = 'pseudo-gui' (flags = 8)
+[   0.009][d][cplayer] Setting option 'log-file' = 'output.txt' (flags = 8)
+[   0.009][d][cplayer] Setting option 'terminal' = 'no' (flags = 260)
+[   0.009][d][cplayer] Setting option 'force-window' = 'yes' (flags = 260)
+[   0.009][d][cplayer] Setting option 'idle' = 'once' (flags = 260)
+[   0.009][d][cplayer] Setting option 'screenshot-directory' = '~~desktop/' (flags = 260)
+[   0.009][d][cplayer] Setting option 'player-operation-mode' = 'pseudo-gui' (flags = 4)
+[   0.010][d][global] user path: 'output.txt' -> 'output.txt'
+[   0.010][d][osc] Loading lua script @osc.lua...
+[   0.010][d][ytdl_hook] Loading lua script @ytdl_hook.lua...
+[   0.010][d][stats] Loading lua script @stats.lua...
+[   0.011][d][global] config path: 'scripts' -/-> 'C:\Users\iron\AppData\Roaming/mpv/scripts'
+[   0.011][d][global] config path: 'scripts' -/-> 'C:/Users/iron/Desktop/mpv-x86_64-20181002/scripts'
+[   0.011][d][global] config path: 'scripts' -/-> 'C:/Users/iron/Desktop/mpv-x86_64-20181002/mpv/scripts'
+[   0.011][v][cplayer] Waiting for scripts...
+[   0.013][d][global] config path: 'scripts' -/-> 'C:\Users\iron\AppData\Roaming/mpv/scripts'
+[   0.013][d][global] config path: 'scripts' -/-> 'C:/Users/iron/Desktop/mpv-x86_64-20181002/scripts'
+[   0.013][d][global] config path: 'scripts' -/-> 'C:\Users\iron\AppData\Roaming/mpv/scripts'
+[   0.013][d][global] config path: 'scripts' -/-> 'C:/Users/iron/Desktop/mpv-x86_64-20181002/scripts'
+[   0.013][d][global] config path: 'scripts' -/-> 'C:/Users/iron/Desktop/mpv-x86_64-20181002/mpv/scripts'
+[   0.013][d][ytdl_hook] loading mp.defaults
+[   0.013][d][global] config path: 'scripts' -/-> 'C:\Users\iron\AppData\Roaming/mpv/scripts'
+[   0.013][d][global] config path: 'scripts' -/-> 'C:/Users/iron/Desktop/mpv-x86_64-20181002/mpv/scripts'
+[   0.013][d][osc] loading mp.defaults
+[   0.013][d][global] config path: 'scripts' -/-> 'C:/Users/iron/Desktop/mpv-x86_64-20181002/scripts'
+[   0.013][d][global] config path: 'scripts' -/-> 'C:/Users/iron/Desktop/mpv-x86_64-20181002/mpv/scripts'
+[   0.013][d][stats] loading mp.defaults
+[   0.013][d][ytdl_hook] loading @ytdl_hook.lua
+[   0.013][d][osc] loading @osc.lua
+[   0.014][d][stats] loading @stats.lua
+[   0.014][d][ytdl_hook] reading options for ytdl_hook 
+[   0.014][d][stats] reading options for stats 
+[   0.014][d][global] config path: 'script-opts/ytdl_hook.conf' -/-> 'C:\Users\iron\AppData\Roaming/mpv/script-opts/ytdl_hook.conf'
+[   0.014][d][global] config path: 'script-opts/ytdl_hook.conf' -/-> 'C:/Users/iron/Desktop/mpv-x86_64-20181002/script-opts/ytdl_hook.conf'
+[   0.014][d][global] config path: 'script-opts/ytdl_hook.conf' -/-> 'C:/Users/iron/Desktop/mpv-x86_64-20181002/mpv/script-opts/ytdl_hook.conf'
+[   0.015][v][ytdl_hook] script-opts/ytdl_hook.conf not found. 
+[   0.015][d][global] config path: 'script-opts/stats.conf' -/-> 'C:\Users\iron\AppData\Roaming/mpv/script-opts/stats.conf'
+[   0.015][d][global] config path: 'script-opts/stats.conf' -/-> 'C:/Users/iron/Desktop/mpv-x86_64-20181002/script-opts/stats.conf'
+[   0.015][d][global] config path: 'script-opts/stats.conf' -/-> 'C:/Users/iron/Desktop/mpv-x86_64-20181002/mpv/script-opts/stats.conf'
+[   0.015][v][stats] script-opts/stats.conf not found. 
+[   0.015][d][global] config path: 'lua-settings/ytdl_hook.conf' -/-> 'C:\Users\iron\AppData\Roaming/mpv/lua-settings/ytdl_hook.conf'
+[   0.015][d][global] config path: 'lua-settings/ytdl_hook.conf' -/-> 'C:/Users/iron/Desktop/mpv-x86_64-20181002/lua-settings/ytdl_hook.conf'
+[   0.015][d][global] config path: 'lua-settings/ytdl_hook.conf' -/-> 'C:/Users/iron/Desktop/mpv-x86_64-20181002/mpv/lua-settings/ytdl_hook.conf'
+[   0.015][v][ytdl_hook] lua-settings/ytdl_hook.conf not found. 
+[   0.015][d][osc] reading options for osc 
+[   0.015][d][global] config path: 'lua-settings/stats.conf' -/-> 'C:\Users\iron\AppData\Roaming/mpv/lua-settings/stats.conf'
+[   0.015][d][global] config path: 'lua-settings/stats.conf' -/-> 'C:/Users/iron/Desktop/mpv-x86_64-20181002/lua-settings/stats.conf'
+[   0.015][d][global] config path: 'lua-settings/stats.conf' -/-> 'C:/Users/iron/Desktop/mpv-x86_64-20181002/mpv/lua-settings/stats.conf'
+[   0.015][v][stats] lua-settings/stats.conf not found. 
+[   0.016][d][global] config path: 'script-opts/osc.conf' -/-> 'C:\Users\iron\AppData\Roaming/mpv/script-opts/osc.conf'
+[   0.016][d][global] config path: 'script-opts/osc.conf' -/-> 'C:/Users/iron/Desktop/mpv-x86_64-20181002/script-opts/osc.conf'
+[   0.016][d][global] config path: 'script-opts/osc.conf' -/-> 'C:/Users/iron/Desktop/mpv-x86_64-20181002/mpv/script-opts/osc.conf'
+[   0.016][v][osc] script-opts/osc.conf not found. 
+[   0.016][d][global] config path: 'lua-settings/osc.conf' -/-> 'C:\Users\iron\AppData\Roaming/mpv/lua-settings/osc.conf'
+[   0.016][d][global] config path: 'lua-settings/osc.conf' -/-> 'C:/Users/iron/Desktop/mpv-x86_64-20181002/lua-settings/osc.conf'
+[   0.016][d][global] config path: 'lua-settings/osc.conf' -/-> 'C:/Users/iron/Desktop/mpv-x86_64-20181002/mpv/lua-settings/osc.conf'
+[   0.016][v][osc] lua-settings/osc.conf not found. 
+[   0.016][d][cplayer] Run command: define-section, flags=0, args=[input_stats, i script-binding stats/display-stats
+[   0.016][d][cplayer] , default]
+[   0.016][d][cplayer] Run command: enable-section, flags=0, args=[input_stats, allow-hide-cursor+allow-vo-dragging]
+[   0.017][d][cplayer] Run command: define-section, flags=0, args=[input_forced_stats, , force]
+[   0.017][d][cplayer] Run command: enable-section, flags=0, args=[input_forced_stats, allow-hide-cursor+allow-vo-dragging]
+[   0.017][d][cplayer] Run command: define-section, flags=0, args=[input_stats, I script-binding stats/display-stats-toggle
+[   0.017][d][cplayer] i script-binding stats/display-stats
+[   0.017][d][cplayer] , default]
+[   0.017][d][cplayer] Run command: enable-section, flags=0, args=[input_stats, allow-hide-cursor+allow-vo-dragging]
+[   0.017][d][cplayer] Run command: define-section, flags=0, args=[input_forced_stats, , force]
+[   0.017][d][cplayer] Run command: enable-section, flags=0, args=[input_forced_stats, allow-hide-cursor+allow-vo-dragging]
+[   0.017][d][cplayer] Run command: define-section, flags=0, args=[input_stats, i script-binding stats/display-stats
+[   0.017][d][cplayer] I script-binding stats/display-stats-toggle
+[   0.017][d][cplayer] , default]
+[   0.017][d][cplayer] Run command: enable-section, flags=0, args=[input_stats, allow-hide-cursor+allow-vo-dragging]
+[   0.017][d][cplayer] Run command: define-section, flags=0, args=[input_forced_stats, , force]
+[   0.017][d][cplayer] Run command: enable-section, flags=0, args=[input_forced_stats, allow-hide-cursor+allow-vo-dragging]
+[   0.017][d][cplayer] Run command: define-section, flags=0, args=[input_stats, i script-binding stats/display-stats
+[   0.017][d][cplayer] I script-binding stats/display-stats-toggle
+[   0.017][d][cplayer] , default]
+[   0.017][d][cplayer] Run command: enable-section, flags=0, args=[input_stats, allow-hide-cursor+allow-vo-dragging]
+[   0.017][d][cplayer] Run command: define-section, flags=0, args=[input_forced_stats, , force]
+[   0.017][d][cplayer] Run command: enable-section, flags=0, args=[input_forced_stats, allow-hide-cursor+allow-vo-dragging]
+[   0.017][d][cplayer] Run command: define-section, flags=0, args=[showhide, mouse_move script-binding osc/__keybinding1
+[   0.017][d][cplayer] mouse_leave script-binding osc/__keybinding2
+[   0.017][d][cplayer] , force]
+[   0.017][d][cplayer] Run command: enable-section, flags=0, args=[showhide, allow-hide-cursor+allow-vo-dragging]
+[   0.017][d][cplayer] Run command: define-section, flags=0, args=[input, mbtn_left script-binding osc/__keybinding3
+[   0.017][d][cplayer] shift+mbtn_left script-binding osc/__keybinding4
+[   0.018][d][cplayer] mbtn_right script-binding osc/__keybinding5
+[   0.018][d][cplayer] wheel_up script-binding osc/__keybinding6
+[   0.018][d][cplayer] wheel_down script-binding osc/__keybinding7
+[   0.018][d][cplayer] mbtn_left_dbl ignore
+[   0.018][d][cplayer] shift+mbtn_left_dbl ignore
+[   0.018][d][cplayer] mbtn_right_dbl ignore
+[   0.018][d][cplayer] , force]
+[   0.018][d][cplayer] Run command: enable-section, flags=0, args=[input, ]
+[   0.018][d][cplayer] Run command: define-section, flags=0, args=[input_osc, , default]
+[   0.018][d][cplayer] Run command: enable-section, flags=0, args=[input_osc, allow-hide-cursor+allow-vo-dragging]
+[   0.018][d][cplayer] Run command: define-section, flags=0, args=[input_forced_osc, , force]
+[   0.018][d][cplayer] Run command: enable-section, flags=0, args=[input_forced_osc, allow-hide-cursor+allow-vo-dragging]
+[   0.018][v][cplayer] Done loading scripts.
+[   0.019][v][vo/gpu] Probing for best GPU context.
+[   0.019][v][vo/gpu/d3d11] Initializing GPU context 'd3d11'
+[   0.039][v][vo/gpu/d3d11] Using Direct3D 11 feature level 12_1
+[   0.039][v][vo/gpu/d3d11] Device Name: Intel(R) UHD Graphics 620
+[   0.039][v][vo/gpu/d3d11] Device ID: 8086:5917 (rev 07)
+[   0.039][v][vo/gpu/d3d11] Subsystem ID: 17aa:5069
+[   0.039][v][vo/gpu/d3d11] LUID: 000000000001122c
+[   0.039][v][vo/gpu/d3d11] Initializing SPIR-V compiler 'shaderc'
+[   0.040][v][vo/gpu/d3d11] Using Direct3D 11.1 runtime
+[   0.040][v][vo/gpu/d3d11] Maximum Texture2D size: 16384x16384
+[   0.041][v][vo/gpu/d3d11] D3DCompiler version: 10.0.18362.1
+[   0.060][v][vo/gpu/d3d11] Using DXGI 1.2+
+[   0.060][v][vo/gpu/d3d11] Using flip-model presentation
+[   0.061][d][vo/gpu/d3d11] Texture formats:
+[   0.061][d][vo/gpu/d3d11]   NAME       COMP*TYPE SIZE        DEPTH PER COMP.
+[   0.061][d][vo/gpu/d3d11]   r8         1*unorm   1B    LF CR {8}
+[   0.061][d][vo/gpu/d3d11]   rg8        2*unorm   2B    LF CR {8 8}
+[   0.061][d][vo/gpu/d3d11]   rgba8      4*unorm   4B    LF CR {8 8 8 8}
+[   0.061][d][vo/gpu/d3d11]   r16        1*unorm   2B    LF CR {16}
+[   0.061][d][vo/gpu/d3d11]   rg16       2*unorm   4B    LF CR {16 16}
+[   0.061][d][vo/gpu/d3d11]   rgba16     4*unorm   8B    LF CR {16 16 16 16}
+[   0.061][d][vo/gpu/d3d11]   r32ui      1*uint    4B          {32}
+[   0.061][d][vo/gpu/d3d11]   rg32ui     2*uint    8B          {32 32}
+[   0.061][d][vo/gpu/d3d11]   rgb32ui    3*uint   12B          {32 32 32}
+[   0.061][d][vo/gpu/d3d11]   rgba32ui   4*uint   16B          {32 32 32 32}
+[   0.061][d][vo/gpu/d3d11]   r16hf      1*float   2B    LF CR {16}
+[   0.061][d][vo/gpu/d3d11]   rg16hf     2*float   4B    LF CR {16 16}
+[   0.061][d][vo/gpu/d3d11]   rgba16hf   4*float   8B    LF CR {16 16 16 16}
+[   0.061][d][vo/gpu/d3d11]   r32f       1*float   4B    LF CR {32}
+[   0.062][d][vo/gpu/d3d11]   rg32f      2*float   8B    LF CR {32 32}
+[   0.062][d][vo/gpu/d3d11]   rgb32f     3*float  12B    LF    {32 32 32}
+[   0.062][d][vo/gpu/d3d11]   rgba32f    4*float  16B    LF CR {32 32 32 32}
+[   0.062][d][vo/gpu/d3d11]   rgb10_a2   4*unorm   4B    LF CR {10 10 10 2}
+[   0.062][d][vo/gpu/d3d11]   bgra8      4*unorm   4B    LF CR {8 8 8 8}
+[   0.062][d][vo/gpu/d3d11]   bgrx8      3*unorm   4B    LF CR {8 8 8}
+[   0.062][d][vo/gpu/d3d11]  LA = LUMINANCE_ALPHA hack format
+[   0.062][d][vo/gpu/d3d11]  LF = linear filterable
+[   0.062][d][vo/gpu/d3d11]  CR = can be used for render targets
+[   0.062][d][vo/gpu/d3d11] Image formats:
+[   0.062][d][vo/gpu/d3d11]   yuv444p => 3 planes 1x1 8/0 [r8/r8/r8] (r/g/b)
+[   0.062][d][vo/gpu/d3d11]   yuv420p => 3 planes 2x2 8/0 [r8/r8/r8] (r/g/b)
+[   0.062][d][vo/gpu/d3d11]   gray => 1 planes 1x1 8/0 [r8] (r)
+[   0.062][d][vo/gpu/d3d11]   gray16 => 1 planes 1x1 16/0 [r16] (r)
+[   0.062][d][vo/gpu/d3d11]   uyvy422
+[   0.062][d][vo/gpu/d3d11]   nv12 => 2 planes 2x2 8/0 [r8/rg8] (r/gb)
+[   0.062][d][vo/gpu/d3d11]   p010 => 2 planes 2x2 16/6 [r16/rg16] (r/gb)
+[   0.062][d][vo/gpu/d3d11]   argb => 1 planes 1x1 8/0 [rgba8] (argb)
+[   0.062][d][vo/gpu/d3d11]   bgra => 1 planes 1x1 8/0 [rgba8] (bgra)
+[   0.062][d][vo/gpu/d3d11]   abgr => 1 planes 1x1 8/0 [rgba8] (abgr)
+[   0.062][d][vo/gpu/d3d11]   rgba => 1 planes 1x1 8/0 [rgba8] (rgba)
+[   0.062][d][vo/gpu/d3d11]   bgr24
+[   0.062][d][vo/gpu/d3d11]   rgb24
+[   0.062][d][vo/gpu/d3d11]   0rgb => 1 planes 1x1 8/0 [rgba8] (_rgb)
+[   0.062][d][vo/gpu/d3d11]   bgr0 => 1 planes 1x1 8/0 [rgba8] (bgr)
+[   0.062][d][vo/gpu/d3d11]   0bgr => 1 planes 1x1 8/0 [rgba8] (_bgr)
+[   0.062][d][vo/gpu/d3d11]   rgb0 => 1 planes 1x1 8/0 [rgba8] (rgb)
+[   0.062][d][vo/gpu/d3d11]   rgba64 => 1 planes 1x1 16/0 [rgba16] (rgba)
+[   0.062][d][vo/gpu/d3d11]   rgb565
+[   0.062][d][vo/gpu/d3d11]   vdpau
+[   0.062][d][vo/gpu/d3d11]   vdpau_output
+[   0.062][d][vo/gpu/d3d11]   vaapi
+[   0.062][d][vo/gpu/d3d11]   d3d11
+[   0.063][d][vo/gpu/d3d11]   dxva2_vld
+[   0.063][d][vo/gpu/d3d11]   mmal
+[   0.063][d][vo/gpu/d3d11]   videotoolbox
+[   0.063][d][vo/gpu/d3d11]   drm_prime
+[   0.063][d][vo/gpu/d3d11]   yuyv422
+[   0.063][d][vo/gpu/d3d11]   yuv422p => 3 planes 2x1 8/0 [r8/r8/r8] (r/g/b)
+[   0.063][d][vo/gpu/d3d11]   yuv410p => 3 planes 4x4 8/0 [r8/r8/r8] (r/g/b)
+[   0.063][d][vo/gpu/d3d11]   yuv411p => 3 planes 4x1 8/0 [r8/r8/r8] (r/g/b)
+[   0.063][d][vo/gpu/d3d11]   monow
+[   0.063][d][vo/gpu/d3d11]   monob
+[   0.063][d][vo/gpu/d3d11]   pal8
+[   0.063][d][vo/gpu/d3d11]   yuvj422p => 3 planes 2x1 8/0 [r8/r8/r8] (r/g/b)
+[   0.063][d][vo/gpu/d3d11]   uyyvyy411
+[   0.063][d][vo/gpu/d3d11]   bgr8
+[   0.063][d][vo/gpu/d3d11]   bgr4
+[   0.063][d][vo/gpu/d3d11]   bgr4_byte
+[   0.063][d][vo/gpu/d3d11]   rgb8
+[   0.063][d][vo/gpu/d3d11]   rgb4
+[   0.063][d][vo/gpu/d3d11]   rgb4_byte
+[   0.063][d][vo/gpu/d3d11]   nv21 => 2 planes 2x2 8/0 [r8/rg8] (r/bg)
+[   0.063][d][vo/gpu/d3d11]   gray16be
+[   0.063][d][vo/gpu/d3d11]   yuv440p => 3 planes 1x2 8/0 [r8/r8/r8] (r/g/b)
+[   0.063][d][vo/gpu/d3d11]   yuvj440p => 3 planes 1x2 8/0 [r8/r8/r8] (r/g/b)
+[   0.063][d][vo/gpu/d3d11]   yuva420p => 4 planes 2x2 8/0 [r8/r8/r8/r8] (r/g/b/a)
+[   0.063][d][vo/gpu/d3d11]   rgb48be
+[   0.063][d][vo/gpu/d3d11]   rgb48
+[   0.063][d][vo/gpu/d3d11]   rgb565be
+[   0.063][d][vo/gpu/d3d11]   rgb555be
+[   0.063][d][vo/gpu/d3d11]   rgb555
+[   0.063][d][vo/gpu/d3d11]   bgr565be
+[   0.063][d][vo/gpu/d3d11]   bgr565
+[   0.063][d][vo/gpu/d3d11]   bgr555be
+[   0.063][d][vo/gpu/d3d11]   bgr555
+[   0.064][d][vo/gpu/d3d11]   vaapi_moco
+[   0.064][d][vo/gpu/d3d11]   vaapi_idct
+[   0.064][d][vo/gpu/d3d11]   yuv420p16 => 3 planes 2x2 16/0 [r16/r16/r16] (r/g/b)
+[   0.064][d][vo/gpu/d3d11]   yuv420p16be
+[   0.064][d][vo/gpu/d3d11]   yuv422p16 => 3 planes 2x1 16/0 [r16/r16/r16] (r/g/b)
+[   0.064][d][vo/gpu/d3d11]   yuv422p16be
+[   0.064][d][vo/gpu/d3d11]   yuv444p16 => 3 planes 1x1 16/0 [r16/r16/r16] (r/g/b)
+[   0.064][d][vo/gpu/d3d11]   yuv444p16be
+[   0.064][d][vo/gpu/d3d11]   rgb444
+[   0.064][d][vo/gpu/d3d11]   rgb444be
+[   0.064][d][vo/gpu/d3d11]   bgr444
+[   0.064][d][vo/gpu/d3d11]   bgr444be
+[   0.064][d][vo/gpu/d3d11]   ya8 => 1 planes 1x1 8/0 [rg8] (ra)
+[   0.064][d][vo/gpu/d3d11]   bgr48be
+[   0.064][d][vo/gpu/d3d11]   bgr48
+[   0.064][d][vo/gpu/d3d11]   yuv420p9be
+[   0.064][d][vo/gpu/d3d11]   yuv420p9 => 3 planes 2x2 16/-7 [r16/r16/r16] (r/g/b)
+[   0.064][d][vo/gpu/d3d11]   yuv420p10be
+[   0.064][d][vo/gpu/d3d11]   yuv420p10 => 3 planes 2x2 16/-6 [r16/r16/r16] (r/g/b)
+[   0.064][d][vo/gpu/d3d11]   yuv422p10be
+[   0.064][d][vo/gpu/d3d11]   yuv422p10 => 3 planes 2x1 16/-6 [r16/r16/r16] (r/g/b)
+[   0.064][d][vo/gpu/d3d11]   yuv444p9be
+[   0.064][d][vo/gpu/d3d11]   yuv444p9 => 3 planes 1x1 16/-7 [r16/r16/r16] (r/g/b)
+[   0.064][d][vo/gpu/d3d11]   yuv444p10be
+[   0.064][d][vo/gpu/d3d11]   yuv444p10 => 3 planes 1x1 16/-6 [r16/r16/r16] (r/g/b)
+[   0.064][d][vo/gpu/d3d11]   yuv422p9be
+[   0.064][d][vo/gpu/d3d11]   yuv422p9 => 3 planes 2x1 16/-7 [r16/r16/r16] (r/g/b)
+[   0.064][d][vo/gpu/d3d11]   gbrp => 3 planes 1x1 8/0 [r8/r8/r8] (g/b/r)
+[   0.064][d][vo/gpu/d3d11]   gbrp9be
+[   0.064][d][vo/gpu/d3d11]   gbrp9 => 3 planes 1x1 16/-7 [r16/r16/r16] (g/b/r)
+[   0.064][d][vo/gpu/d3d11]   gbrp10be
+[   0.064][d][vo/gpu/d3d11]   gbrp10 => 3 planes 1x1 16/-6 [r16/r16/r16] (g/b/r)
+[   0.064][d][vo/gpu/d3d11]   gbrp16be
+[   0.064][d][vo/gpu/d3d11]   gbrp16 => 3 planes 1x1 16/0 [r16/r16/r16] (g/b/r)
+[   0.064][d][vo/gpu/d3d11]   yuva422p => 4 planes 2x1 8/0 [r8/r8/r8/r8] (r/g/b/a)
+[   0.065][d][vo/gpu/d3d11]   yuva444p => 4 planes 1x1 8/0 [r8/r8/r8/r8] (r/g/b/a)
+[   0.065][d][vo/gpu/d3d11]   yuva420p9be
+[   0.065][d][vo/gpu/d3d11]   yuva420p9 => 4 planes 2x2 16/-7 [r16/r16/r16/r16] (r/g/b/a)
+[   0.065][d][vo/gpu/d3d11]   yuva422p9be
+[   0.065][d][vo/gpu/d3d11]   yuva422p9 => 4 planes 2x1 16/-7 [r16/r16/r16/r16] (r/g/b/a)
+[   0.065][d][vo/gpu/d3d11]   yuva444p9be
+[   0.065][d][vo/gpu/d3d11]   yuva444p9 => 4 planes 1x1 16/-7 [r16/r16/r16/r16] (r/g/b/a)
+[   0.065][d][vo/gpu/d3d11]   yuva420p10be
+[   0.065][d][vo/gpu/d3d11]   yuva420p10 => 4 planes 2x2 16/-6 [r16/r16/r16/r16] (r/g/b/a)
+[   0.065][d][vo/gpu/d3d11]   yuva422p10be
+[   0.065][d][vo/gpu/d3d11]   yuva422p10 => 4 planes 2x1 16/-6 [r16/r16/r16/r16] (r/g/b/a)
+[   0.065][d][vo/gpu/d3d11]   yuva444p10be
+[   0.065][d][vo/gpu/d3d11]   yuva444p10 => 4 planes 1x1 16/-6 [r16/r16/r16/r16] (r/g/b/a)
+[   0.065][d][vo/gpu/d3d11]   yuva420p16be
+[   0.065][d][vo/gpu/d3d11]   yuva420p16 => 4 planes 2x2 16/0 [r16/r16/r16/r16] (r/g/b/a)
+[   0.065][d][vo/gpu/d3d11]   yuva422p16be
+[   0.065][d][vo/gpu/d3d11]   yuva422p16 => 4 planes 2x1 16/0 [r16/r16/r16/r16] (r/g/b/a)
+[   0.065][d][vo/gpu/d3d11]   yuva444p16be
+[   0.065][d][vo/gpu/d3d11]   yuva444p16 => 4 planes 1x1 16/0 [r16/r16/r16/r16] (r/g/b/a)
+[   0.065][d][vo/gpu/d3d11]   xyz12
+[   0.065][d][vo/gpu/d3d11]   xyz12be
+[   0.065][d][vo/gpu/d3d11]   nv16 => 2 planes 2x1 8/0 [r8/rg8] (r/gb)
+[   0.065][d][vo/gpu/d3d11]   nv20 => 2 planes 2x1 16/-6 [r16/rg16] (r/gb)
+[   0.065][d][vo/gpu/d3d11]   nv20be
+[   0.065][d][vo/gpu/d3d11]   rgba64be
+[   0.065][d][vo/gpu/d3d11]   bgra64be
+[   0.065][d][vo/gpu/d3d11]   bgra64 => 1 planes 1x1 16/0 [rgba16] (bgra)
+[   0.065][d][vo/gpu/d3d11]   yvyu422
+[   0.065][d][vo/gpu/d3d11]   ya16be
+[   0.065][d][vo/gpu/d3d11]   ya16 => 1 planes 1x1 16/0 [rg16] (ra)
+[   0.065][d][vo/gpu/d3d11]   gbrap => 4 planes 1x1 8/0 [r8/r8/r8/r8] (g/b/r/a)
+[   0.065][d][vo/gpu/d3d11]   gbrap16be
+[   0.065][d][vo/gpu/d3d11]   gbrap16 => 4 planes 1x1 16/0 [r16/r16/r16/r16] (g/b/r/a)
+[   0.066][d][vo/gpu/d3d11]   qsv
+[   0.066][d][vo/gpu/d3d11]   d3d11va_vld
+[   0.066][d][vo/gpu/d3d11]   cuda
+[   0.066][d][vo/gpu/d3d11]   yuv420p12be
+[   0.066][d][vo/gpu/d3d11]   yuv420p12 => 3 planes 2x2 16/-4 [r16/r16/r16] (r/g/b)
+[   0.066][d][vo/gpu/d3d11]   yuv420p14be
+[   0.066][d][vo/gpu/d3d11]   yuv420p14 => 3 planes 2x2 16/-2 [r16/r16/r16] (r/g/b)
+[   0.066][d][vo/gpu/d3d11]   yuv422p12be
+[   0.066][d][vo/gpu/d3d11]   yuv422p12 => 3 planes 2x1 16/-4 [r16/r16/r16] (r/g/b)
+[   0.066][d][vo/gpu/d3d11]   yuv422p14be
+[   0.066][d][vo/gpu/d3d11]   yuv422p14 => 3 planes 2x1 16/-2 [r16/r16/r16] (r/g/b)
+[   0.066][d][vo/gpu/d3d11]   yuv444p12be
+[   0.066][d][vo/gpu/d3d11]   yuv444p12 => 3 planes 1x1 16/-4 [r16/r16/r16] (r/g/b)
+[   0.066][d][vo/gpu/d3d11]   yuv444p14be
+[   0.066][d][vo/gpu/d3d11]   yuv444p14 => 3 planes 1x1 16/-2 [r16/r16/r16] (r/g/b)
+[   0.066][d][vo/gpu/d3d11]   gbrp12be
+[   0.066][d][vo/gpu/d3d11]   gbrp12 => 3 planes 1x1 16/-4 [r16/r16/r16] (g/b/r)
+[   0.066][d][vo/gpu/d3d11]   gbrp14be
+[   0.066][d][vo/gpu/d3d11]   gbrp14 => 3 planes 1x1 16/-2 [r16/r16/r16] (g/b/r)
+[   0.066][d][vo/gpu/d3d11]   yuvj411p => 3 planes 4x1 8/0 [r8/r8/r8] (r/g/b)
+[   0.066][d][vo/gpu/d3d11]   bayer_bggr8
+[   0.066][d][vo/gpu/d3d11]   bayer_rggb8
+[   0.066][d][vo/gpu/d3d11]   bayer_gbrg8
+[   0.066][d][vo/gpu/d3d11]   bayer_grbg8
+[   0.066][d][vo/gpu/d3d11]   bayer_bggr16
+[   0.066][d][vo/gpu/d3d11]   bayer_bggr16be
+[   0.066][d][vo/gpu/d3d11]   bayer_rggb16
+[   0.066][d][vo/gpu/d3d11]   bayer_rggb16be
+[   0.066][d][vo/gpu/d3d11]   bayer_gbrg16
+[   0.066][d][vo/gpu/d3d11]   bayer_gbrg16be
+[   0.066][d][vo/gpu/d3d11]   bayer_grbg16
+[   0.066][d][vo/gpu/d3d11]   bayer_grbg16be
+[   0.066][d][vo/gpu/d3d11]   xvmc
+[   0.066][d][vo/gpu/d3d11]   yuv440p10 => 3 planes 1x2 16/-6 [r16/r16/r16] (r/g/b)
+[   0.067][d][vo/gpu/d3d11]   yuv440p10be
+[   0.067][d][vo/gpu/d3d11]   yuv440p12 => 3 planes 1x2 16/-4 [r16/r16/r16] (r/g/b)
+[   0.067][d][vo/gpu/d3d11]   yuv440p12be
+[   0.067][d][vo/gpu/d3d11]   ayuv64 => 1 planes 1x1 16/0 [rgba16] (argb)
+[   0.067][d][vo/gpu/d3d11]   ayuv64be
+[   0.067][d][vo/gpu/d3d11]   videotoolbox_vl
+[   0.067][d][vo/gpu/d3d11]   p010be
+[   0.067][d][vo/gpu/d3d11]   gbrap12be
+[   0.067][d][vo/gpu/d3d11]   gbrap12 => 4 planes 1x1 16/-4 [r16/r16/r16/r16] (g/b/r/a)
+[   0.067][d][vo/gpu/d3d11]   gbrap10be
+[   0.067][d][vo/gpu/d3d11]   gbrap10 => 4 planes 1x1 16/-6 [r16/r16/r16/r16] (g/b/r/a)
+[   0.067][d][vo/gpu/d3d11]   mediacodec
+[   0.067][d][vo/gpu/d3d11]   gray12be
+[   0.067][d][vo/gpu/d3d11]   gray12 => 1 planes 1x1 16/-4 [r16] (r)
+[   0.067][d][vo/gpu/d3d11]   gray10be
+[   0.067][d][vo/gpu/d3d11]   gray10 => 1 planes 1x1 16/-6 [r16] (r)
+[   0.067][d][vo/gpu/d3d11]   p016 => 2 planes 2x2 16/0 [r16/rg16] (r/gb)
+[   0.067][d][vo/gpu/d3d11]   p016be
+[   0.067][d][vo/gpu/d3d11]   gray9be
+[   0.067][d][vo/gpu/d3d11]   gray9 => 1 planes 1x1 16/-7 [r16] (r)
+[   0.067][d][vo/gpu/d3d11]   gbrpf32be
+[   0.067][d][vo/gpu/d3d11]   gbrpf32 => 3 planes 1x1 32/0 [r32f/r32f/r32f] (g/b/r)
+[   0.067][d][vo/gpu/d3d11]   gbrapf32be
+[   0.067][d][vo/gpu/d3d11]   gbrapf32 => 4 planes 1x1 32/0 [r32f/r32f/r32f/r32f] (g/b/r/a)
+[   0.067][d][vo/gpu/d3d11]   opencl
+[   0.067][d][vo/gpu/d3d11]   gray14be
+[   0.067][d][vo/gpu/d3d11]   gray14 => 1 planes 1x1 16/-2 [r16] (r)
+[   0.067][d][vo/gpu/d3d11]   grayf32be
+[   0.067][d][vo/gpu/d3d11]   grayf32 => 1 planes 1x1 32/0 [r32f] (r)
+[   0.067][v][vo/gpu] Testing FBO format rgba16hf
+[   0.067][d][vo/gpu] Resizing texture: 16x16
+[   0.068][v][vo/gpu] Using FBO format rgba16hf.
+[   0.068][v][vo/gpu] No advanced processing required. Enabling dumb mode.
+[   0.068][v][vo/gpu/win32] DPI detected from the new API: 96
+[   0.068][v][vo/gpu/win32] display-fps: 48.000000
+[   0.070][v][vo/gpu/win32] color-profile: C:\WINDOWS\system32\spool\drivers\color\sRGB Color Space Profile.icm
+[   0.070][v][vo/gpu] Assuming 48.000000 FPS for display sync.
+[   0.071][v][vo/gpu] reconfig to 960x480 yuv444p auto/auto/auto/auto/auto CL=unknown (auto 0.000000/0.000000/0.000000)
+[   0.071][d][vo/gpu] screen size: 1920x1080
+[   0.071][v][vo/gpu/win32] reset window bounds: 480:300:960:480
+[   0.077][d][vo/gpu/win32] move window: 480:300
+[   0.078][v][vo/gpu/win32] resize window: 960:480
+[   0.082][v][vo/gpu] Resize: 960x480
+[   0.082][v][vo/gpu] Window size: 960x480
+[   0.082][v][vo/gpu] Video source: 960x480 (1:1)
+[   0.082][v][vo/gpu] Video display: (0, 0) 960x480 -> (0, 0) 960x480
+[   0.082][v][vo/gpu] Video scale: 1.000000/1.000000
+[   0.082][v][vo/gpu] OSD borders: l=0 t=0 r=0 b=0
+[   0.082][v][vo/gpu] Video borders: l=0 t=0 r=0 b=0
+[   0.082][v][vo/gpu] Reported display depth: 8
+[   0.082][v][vo/gpu] Texture for plane 0: 960x480
+[   0.082][v][vo/gpu] Texture for plane 1: 960x480
+[   0.082][v][vo/gpu] Texture for plane 2: 960x480
+[   0.083][v][vo/gpu] Testing FBO format rgba16hf
+[   0.083][d][vo/gpu] Resizing texture: 16x16
+[   0.083][v][vo/gpu] Using FBO format rgba16hf.
+[   0.083][v][vo/gpu] No advanced processing required. Enabling dumb mode.
+[   0.083][d][global] config path: 'fonts' -/-> 'C:\Users\iron\AppData\Roaming/mpv/fonts'
+[   0.083][d][global] config path: 'fonts' -/-> 'C:/Users/iron/Desktop/mpv-x86_64-20181002/fonts'
+[   0.084][d][global] config path: 'fonts' -/-> 'C:/Users/iron/Desktop/mpv-x86_64-20181002/mpv/fonts'
+[   0.084][v][vo/gpu] Resize: 960x480
+[   0.084][v][vo/gpu] Window size: 960x480
+[   0.084][v][vo/gpu] Video source: 960x480 (1:1)
+[   0.084][v][vo/gpu] Video display: (0, 0) 960x480 -> (0, 0) 960x480
+[   0.084][v][vo/gpu] Video scale: 1.000000/1.000000
+[   0.084][v][vo/gpu] OSD borders: l=0 t=0 r=0 b=0
+[   0.084][v][vo/gpu] Video borders: l=0 t=0 r=0 b=0
+[   0.085][v][vo/gpu] Reported display depth: 8
+[   0.085][v][osd/libass] Shaper: FriBidi 1.0.5 (SIMPLE) HarfBuzz-ng 1.9.0 (COMPLEX)
+[   0.086][d][global] config path: 'subfont.ttf' -/-> 'C:\Users\iron\AppData\Roaming/mpv/subfont.ttf'
+[   0.086][d][global] config path: 'subfont.ttf' -/-> 'C:/Users/iron/Desktop/mpv-x86_64-20181002/subfont.ttf'
+[   0.086][d][global] config path: 'subfont.ttf' -/-> 'C:/Users/iron/Desktop/mpv-x86_64-20181002/mpv/subfont.ttf'
+[   0.086][d][global] config path: 'fonts.conf' -/-> 'C:\Users\iron\AppData\Roaming/mpv/fonts.conf'
+[   0.086][d][global] config path: 'fonts.conf' -/-> 'C:/Users/iron/Desktop/mpv-x86_64-20181002/fonts.conf'
+[   0.086][d][global] config path: 'fonts.conf' -/-> 'C:/Users/iron/Desktop/mpv-x86_64-20181002/mpv/fonts.conf'
+[   0.086][v][osd/libass] Setting up fonts...
+[   0.092][v][osd/libass] Using font provider directwrite
+[   0.093][v][osd/libass] Done.
+[   0.094][v][osd/libass] fontselect: (sans-serif, 400, 0) -> ArialMT, 0, ArialMT
+[   0.098][v][vo/gpu] Reallocating OSD texture to 512x256.
+[   0.145][v][vo/gpu/d3d11] shaderc compile status 'success' (0 errors, 0 warnings)
+[   0.148][v][vo/gpu/d3d11] Compiled a vertex shader in 49046us
+[   0.148][v][vo/gpu/d3d11] shaderc: 46120us, SPIRV-Cross: 407us, D3DCompile: 2519us
+[   0.148][d][vo/gpu/d3d11] GLSL source:
+[   0.148][d][vo/gpu/d3d11] [  1] #version 450
+[   0.148][d][vo/gpu/d3d11] [  2] #define tex1D texture
+[   0.148][d][vo/gpu/d3d11] [  3] #define tex3D texture
+[   0.148][d][vo/gpu/d3d11] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   0.148][d][vo/gpu/d3d11] [  5] layout(location=0) in vec2 vertex_position;
+[   0.148][d][vo/gpu/d3d11] [  6] layout(location=1) in vec2 vertex_texcoord;
+[   0.148][d][vo/gpu/d3d11] [  7] layout(location=1) out vec2 texcoord;
+[   0.148][d][vo/gpu/d3d11] [  8] layout(location=2) in vec4 vertex_ass_color;
+[   0.148][d][vo/gpu/d3d11] [  9] layout(location=2) out vec4 ass_color;
+[   0.149][d][vo/gpu/d3d11] [ 10] void main() {
+[   0.149][d][vo/gpu/d3d11] [ 11] gl_Position = vec4(vertex_position, 1.0, 1.0);
+[   0.149][d][vo/gpu/d3d11] [ 12] texcoord = vertex_texcoord;
+[   0.149][d][vo/gpu/d3d11] [ 13] ass_color = vertex_ass_color;
+[   0.149][d][vo/gpu/d3d11] [ 14] }
+[   0.149][d][vo/gpu/d3d11] HLSL source:
+[   0.149][d][vo/gpu/d3d11] [  1] static float4 gl_Position;
+[   0.149][d][vo/gpu/d3d11] [  2] static float2 _18;
+[   0.149][d][vo/gpu/d3d11] [  3] static float2 _27;
+[   0.149][d][vo/gpu/d3d11] [  4] static float2 _28;
+[   0.149][d][vo/gpu/d3d11] [  5] static float4 _30;
+[   0.149][d][vo/gpu/d3d11] [  6] static float4 _32;
+[   0.149][d][vo/gpu/d3d11] [  7] 
+[   0.149][d][vo/gpu/d3d11] [  8] struct SPIRV_Cross_Input
+[   0.149][d][vo/gpu/d3d11] [  9] {
+[   0.149][d][vo/gpu/d3d11] [ 10]     float2 _18 : TEXCOORD0;
+[   0.149][d][vo/gpu/d3d11] [ 11]     float2 _28 : TEXCOORD1;
+[   0.149][d][vo/gpu/d3d11] [ 12]     float4 _32 : TEXCOORD2;
+[   0.149][d][vo/gpu/d3d11] [ 13] };
+[   0.149][d][vo/gpu/d3d11] [ 14] 
+[   0.149][d][vo/gpu/d3d11] [ 15] struct SPIRV_Cross_Output
+[   0.149][d][vo/gpu/d3d11] [ 16] {
+[   0.149][d][vo/gpu/d3d11] [ 17]     float2 _27 : TEXCOORD1;
+[   0.149][d][vo/gpu/d3d11] [ 18]     float4 _30 : TEXCOORD2;
+[   0.149][d][vo/gpu/d3d11] [ 19]     float4 gl_Position : SV_Position;
+[   0.149][d][vo/gpu/d3d11] [ 20] };
+[   0.149][d][vo/gpu/d3d11] [ 21] 
+[   0.149][d][vo/gpu/d3d11] [ 22] void vert_main()
+[   0.149][d][vo/gpu/d3d11] [ 23] {
+[   0.149][d][vo/gpu/d3d11] [ 24]     gl_Position = float4(_18, 1.0f, 1.0f);
+[   0.149][d][vo/gpu/d3d11] [ 25]     _27 = _28;
+[   0.149][d][vo/gpu/d3d11] [ 26]     _30 = _32;
+[   0.149][d][vo/gpu/d3d11] [ 27]     gl_Position.y = -gl_Position.y;
+[   0.149][d][vo/gpu/d3d11] [ 28] }
+[   0.150][d][vo/gpu/d3d11] [ 29] 
+[   0.150][d][vo/gpu/d3d11] [ 30] SPIRV_Cross_Output main(SPIRV_Cross_Input stage_input)
+[   0.150][d][vo/gpu/d3d11] [ 31] {
+[   0.150][d][vo/gpu/d3d11] [ 32]     _18 = stage_input._18;
+[   0.150][d][vo/gpu/d3d11] [ 33]     _28 = stage_input._28;
+[   0.150][d][vo/gpu/d3d11] [ 34]     _32 = stage_input._32;
+[   0.150][d][vo/gpu/d3d11] [ 35]     vert_main();
+[   0.150][d][vo/gpu/d3d11] [ 36]     SPIRV_Cross_Output stage_output;
+[   0.150][d][vo/gpu/d3d11] [ 37]     stage_output.gl_Position = gl_Position;
+[   0.150][d][vo/gpu/d3d11] [ 38]     stage_output._27 = _27;
+[   0.150][d][vo/gpu/d3d11] [ 39]     stage_output._30 = _30;
+[   0.150][d][vo/gpu/d3d11] [ 40]     return stage_output;
+[   0.150][d][vo/gpu/d3d11] [ 41] }
+[   0.152][v][vo/gpu/d3d11] shaderc compile status 'success' (0 errors, 0 warnings)
+[   0.156][v][vo/gpu/d3d11] Compiled a fragment shader in 6138us
+[   0.156][v][vo/gpu/d3d11] shaderc: 2098us, SPIRV-Cross: 175us, D3DCompile: 3865us
+[   0.156][d][vo/gpu/d3d11] GLSL source:
+[   0.157][d][vo/gpu/d3d11] [  1] #version 450
+[   0.157][d][vo/gpu/d3d11] [  2] #define tex1D texture
+[   0.157][d][vo/gpu/d3d11] [  3] #define tex3D texture
+[   0.157][d][vo/gpu/d3d11] [  4] #define LUT_POS(x, lut_size) mix(0.5 / (lut_size), 1.0 - 0.5 / (lut_size), (x))
+[   0.157][d][vo/gpu/d3d11] [  5] layout(location=0) out vec4 out_color;
+[   0.157][d][vo/gpu/d3d11] [  6] layout(location=1) in vec2 texcoord;
+[   0.157][d][vo/gpu/d3d11] [  7] layout(location=2) in vec4 ass_color;
+[   0.157][d][vo/gpu/d3d11] [  8] layout(std140, binding=0) uniform UBO {
+[   0.157][d][vo/gpu/d3d11] [  9] layout(offset=0) vec3 src_luma;
+[   0.157][d][vo/gpu/d3d11] [ 10] layout(offset=16) vec3 dst_luma;
+[   0.157][d][vo/gpu/d3d11] [ 11] };
+[   0.157][d][vo/gpu/d3d11] [ 12] layout(binding=0) uniform sampler2D osdtex;
+[   0.157][d][vo/gpu/d3d11] [ 13] void main() {
+[   0.157][d][vo/gpu/d3d11] [ 14] vec4 color = vec4(0.0, 0.0, 0.0, 1.0);
+[   0.157][d][vo/gpu/d3d11] [ 15] color = vec4(ass_color.rgb, ass_color.a * texture(osdtex, texcoord).r);
+[   0.157][d][vo/gpu/d3d11] [ 16] // color mapping
+[   0.157][d][vo/gpu/d3d11] [ 17] color.rgb *= vec3(1.000000);
+[   0.157][d][vo/gpu/d3d11] [ 18] color.rgb *= vec3(1.000000);
+[   0.157][d][vo/gpu/d3d11] [ 19] out_color = color;
+[   0.157][d][vo/gpu/d3d11] [ 20] }
+[   0.157][d][vo/gpu/d3d11] HLSL source:
+[   0.157][d][vo/gpu/d3d11] [  1] Texture2D<float4> _26 : register(t0);
+[   0.157][d][vo/gpu/d3d11] [  2] SamplerState __26_sampler : register(s0);
+[   0.157][d][vo/gpu/d3d11] [  3] 
+[   0.157][d][vo/gpu/d3d11] [  4] static float4 _14;
+[   0.157][d][vo/gpu/d3d11] [  5] static float2 _30;
+[   0.158][d][vo/gpu/d3d11] [  6] static float4 _52;
+[   0.158][d][vo/gpu/d3d11] [  7] 
+[   0.158][d][vo/gpu/d3d11] [  8] struct SPIRV_Cross_Input
+[   0.158][d][vo/gpu/d3d11] [  9] {
+[   0.158][d][vo/gpu/d3d11] [ 10]     float2 _30 : TEXCOORD1;
+[   0.158][d][vo/gpu/d3d11] [ 11]     float4 _14 : TEXCOORD2;
+[   0.158][d][vo/gpu/d3d11] [ 12] };
+[   0.158][d][vo/gpu/d3d11] [ 13] 
+[   0.158][d][vo/gpu/d3d11] [ 14] struct SPIRV_Cross_Output
+[   0.158][d][vo/gpu/d3d11] [ 15] {
+[   0.158][d][vo/gpu/d3d11] [ 16]     float4 _52 : SV_Target0;
+[   0.158][d][vo/gpu/d3d11] [ 17] };
+[   0.158][d][vo/gpu/d3d11] [ 18] 
+[   0.158][d][vo/gpu/d3d11] [ 19] void frag_main()
+[   0.158][d][vo/gpu/d3d11] [ 20] {
+[   0.158][d][vo/gpu/d3d11] [ 21]     float4 _39 = float4(_14.xyz, _14.w * _26.Sample(__26_sampler, _30).x);
+[   0.158][d][vo/gpu/d3d11] [ 22]     _52 = float4(_39.x, _39.y, _39.z, _39.w);
+[   0.158][d][vo/gpu/d3d11] [ 23] }
+[   0.158][d][vo/gpu/d3d11] [ 24] 
+[   0.158][d][vo/gpu/d3d11] [ 25] SPIRV_Cross_Output main(SPIRV_Cross_Input stage_input)
+[   0.158][d][vo/gpu/d3d11] [ 26] {
+[   0.158][d][vo/gpu/d3d11] [ 27]     _14 = stage_input._14;
+[   0.158][d][vo/gpu/d3d11] [ 28]     _30 = stage_input._30;
+[   0.158][d][vo/gpu/d3d11] [ 29]     frag_main();
+[   0.158][d][vo/gpu/d3d11] [ 30]     SPIRV_Cross_Output stage_output;
+[   0.158][d][vo/gpu/d3d11] [ 31]     stage_output._52 = _52;
+[   0.158][d][vo/gpu/d3d11] [ 32]     return stage_output;
+[   0.158][d][vo/gpu/d3d11] [ 33] }
+[   0.160][d][cplayer] Run command: disable-section, flags=0, args=[showhide]
+[  11.123][v][vo/gpu/win32/droptarget] received dropped URL: https://github.com/toiron/setest/blob/master/denyofservice.wav
+[  11.123][d][cplayer] Run command: loadfile, flags=1, args=[https://github.com/toiron/setest/blob/master/denyofservice.wav, replace, ]
+[  11.124][d][global] config path: 'watch_later' -> 'C:\Users\iron\AppData\Roaming/mpv/watch_later'
+[  11.124][i][cplayer] Playing: https://github.com/toiron/setest/blob/master/denyofservice.wav
+[  11.124][v][cplayer] Running hook: ytdl_hook/on_load
+[  11.124][v][ytdl_hook] ytdl:// hook 
+[  11.124][d][osc] osc_init 
+[  11.124][v][ytdl_hook] not a ytdl:// url 
+[  11.125][v][ffmpeg] Opening https://github.com/toiron/setest/blob/master/denyofservice.wav
+[  11.125][d][cplayer] Run command: enable-section, flags=0, args=[showhide, allow-hide-cursor+allow-vo-dragging]
+[  11.125][d][cplayer] Run command: disable-section, flags=0, args=[input]
+[  11.134][d][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  11.135][d][cplayer] Run command: enable-section, flags=0, args=[input, ]
+[  11.135][d][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  11.137][v][osd/libass] fontselect: (mpv-osd-symbols, 400, 0) -> mpv-osd-symbols-Regular, 0, mpv-osd-symbols-Regular
+[  11.138][v][vo/gpu] Reallocating OSD texture to 1024x128.
+[  11.182][d][ffmpeg] tcp: Starting connection attempt to 13.250.177.223 port 443
+[  11.429][d][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  11.429][d][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  11.430][d][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  11.436][d][ffmpeg] tcp: Successfully connected to 13.250.177.223 port 443
+[  11.437][d][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  11.437][d][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  11.453][d][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  11.453][d][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  11.469][d][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  11.469][d][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  11.477][d][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  11.477][d][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  11.485][d][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  11.486][d][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  11.486][d][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  11.493][d][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  11.493][d][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  11.501][d][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  11.501][d][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  11.507][d][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  11.507][d][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  11.515][d][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  11.516][d][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  11.523][d][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  11.523][d][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  11.531][d][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  11.531][d][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  11.539][d][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  11.540][d][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  11.540][d][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  11.547][d][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding2]
+[  11.595][d][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  11.651][d][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  11.705][d][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  11.729][d][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding2]
+[  12.722][d][cplayer] Run command: disable-section, flags=0, args=[input]
+[  12.773][v][ffmpeg] Mime-type: 'text/html; charset=utf-8'
+[  12.773][d][ffmpeg] Stream opened successfully.
+[  12.773][v][cache] Cache size set to 20000 KiB (10000 KiB backbuffer)
+[  12.773][v][demux] Trying demuxers for level=normal.
+[  12.774][d][demux] Trying demuxer: disc (force-level: normal)
+[  12.774][d][demux] Trying demuxer: edl (force-level: normal)
+[  12.774][d][demux] Trying demuxer: cue (force-level: normal)
+[  12.774][d][demux] Trying demuxer: rawaudio (force-level: normal)
+[  12.775][d][demux] Trying demuxer: rawvideo (force-level: normal)
+[  12.775][d][demux] Trying demuxer: mkv (force-level: normal)
+[  12.775][d][demux] Trying demuxer: libarchive (force-level: normal)
+[  12.776][d][demux] Trying demuxer: rar (force-level: normal)
+[  12.776][d][demux] Trying demuxer: lavf (force-level: normal)
+[  13.363][d][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  13.363][d][cplayer] Run command: enable-section, flags=0, args=[input, ]
+[  13.363][d][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  13.371][d][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  13.371][d][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  13.379][d][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  13.380][d][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  13.387][d][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  13.387][d][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  13.388][d][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  13.395][d][cplayer] Run command: script-binding, flags=9, args=[osc/__keybinding1]
+[  13.395][d][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  13.575][v][cache] EOF reached.
+[  13.586][v][lavf] No format found, try lowering probescore or forcing the format.
+[  13.586][d][demux] Trying demuxer: mf (force-level: normal)
+[  13.587][d][demux] Trying demuxer: playlist (force-level: normal)
+[  13.587][d][demux] Trying demuxer: null (force-level: normal)
+[  13.587][v][demux] Trying demuxers for level=unsafe.
+[  13.587][d][demux] Trying demuxer: disc (force-level: unsafe)
+[  13.588][d][demux] Trying demuxer: edl (force-level: unsafe)
+[  13.588][d][demux] Trying demuxer: cue (force-level: unsafe)
+[  13.588][d][demux] Trying demuxer: rawaudio (force-level: unsafe)
+[  13.588][d][demux] Trying demuxer: rawvideo (force-level: unsafe)
+[  13.589][d][demux] Trying demuxer: mkv (force-level: unsafe)
+[  13.589][d][demux] Trying demuxer: libarchive (force-level: unsafe)
+[  13.589][d][demux] Trying demuxer: rar (force-level: unsafe)
+[  13.590][d][demux] Trying demuxer: lavf (force-level: unsafe)
+[  13.606][v][lavf] No format found, try lowering probescore or forcing the format.
+[  13.606][d][demux] Trying demuxer: mf (force-level: unsafe)
+[  13.606][d][demux] Trying demuxer: playlist (force-level: unsafe)
+[  13.606][d][demux] Trying demuxer: null (force-level: unsafe)
+[  13.606][v][cache] Terminating cache...
+[  13.606][v][cache] Cache exiting...
+[  13.607][d][ffmpeg] AVIOContext: Statistics: 66149 bytes read, 0 seeks
+[  13.607][v][cplayer] Opening failed or was aborted: https://github.com/toiron/setest/blob/master/denyofservice.wav
+[  13.608][v][cplayer] Running hook: ytdl_hook/on_load_fail
+[  13.608][v][ytdl_hook] full hook 
+[  13.608][d][cplayer] Run command: expand-text, flags=0, args=[${media-title}]
+[  13.608][d][global] config path: 'youtube-dl.exe' -/-> 'C:\Users\iron\AppData\Roaming/mpv/youtube-dl.exe'
+[  13.608][d][global] config path: 'youtube-dl.exe' -/-> 'C:/Users/iron/Desktop/mpv-x86_64-20181002/youtube-dl.exe'
+[  13.608][d][global] config path: 'youtube-dl.exe' -/-> 'C:/Users/iron/Desktop/mpv-x86_64-20181002/mpv/youtube-dl.exe'
+[  13.609][d][ytdl_hook] Running: youtube-dl --no-warnings -J --flat-playlist --sub-format ass/srt/best --format bestvideo+bestaudio/best --all-subs --no-playlist -- https://github.com/toiron/setest/blob/master/denyofservice.wav 
+[  13.610][e][ytdl_hook] youtube-dl failed: not found or not enough permissions 
+[  13.610][v][cplayer] finished playback, unrecognized file format (reason 4)
+[  13.610][e][cplayer] Failed to recognize file format.
+[  13.610][i][cplayer] 
+[  13.610][i][cplayer] 
+[  13.610][i][cplayer] Exiting... (Errors when loading file)
+[  13.610][v][ytdl_hook] Exiting...
+[  13.610][v][stats] Exiting...
+[  13.611][v][osc] Exiting...
+[  13.613][d][vo/gpu] flushing shader cache
+[  13.620][v][vo/gpu/win32] uninit
